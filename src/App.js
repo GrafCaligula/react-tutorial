@@ -3,8 +3,8 @@ import Main from "./components/Main";
 
 export default function App(){
   return (
-    <div>
-      <Navbar />
+    <div className="container">
+      <Navbar className="navbar"/>
       <Main /> 
     </div>
   )
